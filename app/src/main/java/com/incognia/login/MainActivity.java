@@ -5,18 +5,12 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import com.incognia.login.database.Database;
-import com.sirvar.robin.RobinActivity;
-
-import java.util.UUID;
 
 public class MainActivity extends RobinActivity {
     private AppCompatActivity thisActivity = this;
